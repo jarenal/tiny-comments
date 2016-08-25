@@ -1,0 +1,73 @@
+body {background-color: beige;}
+h1 { text-align: center; color: #FFCC66;}
+.new-message-bar { width: 600px; margin: 0 auto; text-align: center; padding: 20px;}
+.container { margin: 0 auto; width: 600px; padding: 0px !important;}
+.m-box { border: 2px solid #FFCC66; width: 600px; height: auto; overflow: hidden;}
+.m-date { position: relative; float: right;}
+.m-header { padding: 10px; background-color: #FFCC66; }
+.m-body { padding: 10px;}
+.m-footer { padding: 10px; overflow: hidden; background-color: #FFCC66;}
+.m-id { position: relative; float: left;}
+.m-reply { position: relative; float: right;}
+ul, li { list-style: none; margin: 5px;}
+
+.popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup.on {
+    display: block;
+}
+.p-background {
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.form-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    width: 600px;
+    height: 490px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.form-container h3 { text-align: center; padding-top: 10px; padding-bottom: 0px}
+
+.f-box {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.f-box label {font-weight: bolder;}
+
+.f-box fieldset input { width: 380px; float: right;}
+.f-box fieldset textarea { width: 460px;}
+
+.btn-cancel { float: left;}
+.btn-send { float: right;}
+
+.post_number {
+    float: none !important;
+    margin-left: 20px !important;
+    width: 50px !important;
+}
+
+
